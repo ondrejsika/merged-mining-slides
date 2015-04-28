@@ -31,7 +31,7 @@ How Bitcoin Works
 
 Block
   * timestamped list of transaction
-  * contains hash of previous block
+  * block header contains hash of previous block header
 
   Bitcoin saves transaction to blocks. Block contains also some additional data.
 
@@ -41,6 +41,7 @@ Blockchain
 Mining
 
 Proof of Work
+  * mechanism to prove
 
 Aux POW
 
