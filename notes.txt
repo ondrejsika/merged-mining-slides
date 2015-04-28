@@ -8,44 +8,63 @@ Merged Mining
 Slides
 ------
 
-Intro
+Intro - part 1
   * about me, slush pool
   * quick intoduction of merge mining (2-3 sentences)
+  * "The act of using work done on one blockchain on more than one chain, using Auxiliary POW." [03]
 
 
 Bitcoin
-  * first cryptocurrency
-  * involved by Satoshi Nakamoto
+  * no desc. required
 
 
 Namecoin
   * altcoin
-  * fork of bitcoin
-  * distributed ecoure DNS (breaks Zooko's triangle) [01]
+  * first fork of bitcoin
+  * additional value - distributed ecoure DNS (breaks Zooko's triangle) [01]
 
 
-How Bitcoin Works
+How Bitcoin Works - part 2
+
+
+?? Transactions
+
 
 Block
-  * timestamped list of transaction
-  * block header contains hash of previous block header
+  * ?? timestamped list of transaction
+  * IMG: structure
 
+Block Header
+  * 80 Bytes
+  * same structure Bitcoin & Namecoin
+  * IMG: structure
 
 Blockchain
   * chain of blocks
+  * block header contains hash of previous block header
+  * ?? IMG: structure
 
-Mining
+Mining - part 3
 
 Proof of Work
-  * mechanism to prove
+  * "A proof of work is a piece of data which was difficult (costly, time-consuming) to produce so as to satisfy certain requirements" [02]
+  * example hashing "Hello world!" [02]
 
 Aux POW
-
-Bitcoin Block
+  * Auxiliry POW
+  * "This is the way that merged mining can exist; it is the relationship between two blockchains for one to trust the other's work as their own and accept AuxPOW blocks." [03]
 
 Bitcoin Coinbase
+  * input of first transaction in block
+  * "The first transaction in a block, called the coinbase transaction, must have exactly one input, called a coinbase." [04][05]
+  * must be shortest than 100 Bytes
+  * contains merge mining data - prove work on specific block in other chain
 
 Namecoin Block
+  * IMG: structure
+
+Namecoin AUXPOW
+  * IMG: structure
 
 Questions
 
@@ -53,5 +72,8 @@ Sources
 -------
 
   [01] https://en.wikipedia.org/wiki/Zooko%27s_triangle
-
+  [02] https://en.bitcoin.it/wiki/Proof_of_work
+  [03] https://en.bitcoin.it/wiki/Merged_mining_specification
+  [04] https://bitcoin.org/en/developer-reference#coinbase
+  [05] https://bitcoin.org/en/glossary/coinbase
 
