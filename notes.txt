@@ -12,20 +12,17 @@ Intro
   * about me, slush pool
   * quick intoduction of merge mining (2-3 sentences)
 
-  Merged mining "umoznuje" mining multiple currencies with one hashrate.
 
 Bitcoin
   * first cryptocurrency
   * involved by Satoshi Nakamoto
 
-  Bicoin has been involved by Satoshi Nakamoto in 2008. It is a frist crtptocurreny and "po vzoru zacalo znikat" lot of other cryptocurrencies.
 
 Namecoin
   * altcoin
   * fork of bitcoin
   * distributed ecoure DNS (breaks Zooko's triangle) [01]
 
-  Namecoin is an altocoin, created by Vincent Durham by forking bitcoin client version 0.3. 'Narozil od' other altcoin, with no addidional featues, namecoin introduce name system which broke Zooko's triange. What's Zooko's triangle. Previously 'se predpokladalo' the name systems should be decenralized and secure but not memorable like Tor namespace (deoi4234dj23er234.onion). Standart DNS is decentralized and memorable but not secure.
 
 How Bitcoin Works
 
@@ -33,7 +30,6 @@ Block
   * timestamped list of transaction
   * block header contains hash of previous block header
 
-  Bitcoin saves transaction to blocks. Block contains also some additional data.
 
 Blockchain
   * chain of blocks
