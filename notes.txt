@@ -7,6 +7,21 @@ Merged Mining
 
 Slides
 ------
+Intro - part 1
+Bitcoin
+Namecoin
+How Bitcoin Minig Works - part 2
+Block
+Block Header
+Blockchain
+Mining - part 3
+Proof of Work
+Aux POW
+Bitcoin MergedMining Coinbase
+Principle of Aux POW
+Namecoin Block
+Questions
+
 
 Intro - part 1
   * about me, slush pool
@@ -24,11 +39,10 @@ Namecoin
   * additional value - distributed ecoure DNS (breaks Zooko's triangle) [01]
 
 
-How Bitcoin Works - part 2
+How Bitcoin Minig Works - part 2
 
 
 Block
-  * ?? timestamped list of transaction
   * header + transaction
   * IMG: structure
 
@@ -57,21 +71,18 @@ Aux POW
   * second way to proove your work
   * "This is the way that merged mining can exist; it is the relationship between two blockchains for one to trust the other's work as their own and accept AuxPOW blocks." [03]
 
-(Bitcoin) Coinbase
+Bitcoin (Merged Mining) Coinbase
   * input of first transaction in block
   * !! very special tx
   * "The first transaction in a block, called the coinbase transaction, must have exactly one input, called a coinbase." [04][05]
   * must be shortest than 100 Bytes
   * contains merge mining data - prove work on specific block in other chain
 
-Main Structure
+Principle of Aux POW
   * !! IMG, most important part
 
 
 Namecoin Block
-  * IMG: structure
-
-Namecoin AUXPOW
   * IMG: structure
 
 Questions

@@ -34,16 +34,11 @@
 
     {\Huge Namecoin}\\
 
-    \vspace{5mm}
-
-    - fork of Bitcoin\\
-    - own blockchain\\
-
 \end{frame}
 
 \begin{frame}
 
-    {\Huge How Bitcoin Works?}\\
+    {\Huge How Bitcoin Mining Works?}\\
 
 \end{frame}
 
@@ -51,15 +46,17 @@
 
     {\Huge Block}\\
 
-    \vspace{5mm}
+    img: block: header + transactions
 
-    \begin{tabular}{|l|}
-    \hline
-    HEADER \\
-    \hline
-    TRANSACTIONS \\
-    \hline
-    \end{tabular}
+%    \vspace{5mm}
+
+%    \begin{tabular}{|l|}
+%    \hline
+%    HEADER \\
+%    \hline
+%    TRANSACTIONS \\
+%    \hline
+%    \end{tabular}
 
 \end{frame}
 
@@ -67,29 +64,33 @@
 
     {\Huge Block Header}\\
 
-    \vspace{5mm}
+    img: header version: hashPrevBlock, hashMerkelRoot, time, bits (difficulty), nonce
 
-    \begin{tabular}{|l|}
-    \hline
-    version \\
-    \hline
-    hashPrevBlock \\
-    \hline
-    hashMerkelRoot \\
-    \hline
-    time \\
-    \hline
-    bits (difficulty)\\
-    \hline
-    nonce \\
-    \hline
-    \end{tabular}
+%    \vspace{5mm}
+
+%    \begin{tabular}{|l|}
+%    \hline
+%    version \\
+%    \hline
+%    hashPrevBlock \\
+%    \hline
+%    hashMerkelRoot \\
+%    \hline
+%    time \\
+%    \hline
+%    bits (difficulty)\\
+%    \hline
+%    nonce \\
+%    \hline
+%    \end{tabular}
 
 \end{frame}
 
 \begin{frame}
 
     {\Huge Blockchain}\\
+
+    img: blockchain
 
 \end{frame}
 
@@ -99,19 +100,9 @@
 
 \end{frame}
 
-\begin{frame}[fragile]
+\begin{frame}
 
     {\Huge Proof of Work}\\
-
-    \begin{verbatim}
-"Hello, world!0" => 1312af178c253f84...
-"Hello, world!1" => e9afc424b79e4f6a...
-"Hello, world!2" => ae37343a357a8297...
-...
-"Hello, world!4248" => 6e110d98b388e...
-"Hello, world!4249" => c004190b822f1...
-"Hello, world!4250" => 0000c3af42fc3...
-    \end{verbatim}
 
 \end{frame}
 
@@ -129,35 +120,32 @@
 
 \begin{frame}
 
-    {\Huge Namecoin Block}\\
+    {\Huge Principle of Aux POW}\\
 
-    \vspace{5mm}
 
-    \begin{tabular}{|l|}
-    \hline
-    HEADER\\
-    \hline
-    AUXPOW\\
-    \hline
-    TRANSACTIONS\\
-    \hline
-    \end{tabular}
+    img: relation two blockchain
 
 \end{frame}
 
 \begin{frame}
 
-    {\Huge Namecoin AUXPOW}\\
+    {\Huge Namecoin Block}\\
 
-    \vspace{5mm}
+    img: block + auxpow + transactions
 
-    \begin{tabular}{|l|}
-    \hline
-    BITCOIN BLOCK HEADER\\
-    \hline
-    BITCOIN COINBASE \\
-    \hline
-    \end{tabular}
+%    \vspace{5mm}
+
+%    \begin{tabular}{|l|}
+%    \hline
+%    HEADER\\
+%    \hline
+%    BITCOIN BLOCK HEADER\\
+%    \hline
+%    BITCOIN COINBASE \\
+%    \hline
+%    TRANSACTIONS\\
+%    \hline
+%    \end{tabular}
 
 \end{frame}
 
