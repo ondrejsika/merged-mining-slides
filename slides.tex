@@ -46,17 +46,11 @@
 
     {\Huge Block}\\
 
-    img: block: header + transactions
+    \vspace{5mm}
 
-%    \vspace{5mm}
+    * header\\
+    * transactions\\
 
-%    \begin{tabular}{|l|}
-%    \hline
-%    HEADER \\
-%    \hline
-%    TRANSACTIONS \\
-%    \hline
-%    \end{tabular}
 
 \end{frame}
 
@@ -64,25 +58,14 @@
 
     {\Huge Block Header}\\
 
-    img: header version: hashPrevBlock, hashMerkelRoot, time, bits (difficulty), nonce
+    \vspace{5mm}
 
-%    \vspace{5mm}
-
-%    \begin{tabular}{|l|}
-%    \hline
-%    version \\
-%    \hline
-%    hashPrevBlock \\
-%    \hline
-%    hashMerkelRoot \\
-%    \hline
-%    time \\
-%    \hline
-%    bits (difficulty)\\
-%    \hline
-%    nonce \\
-%    \hline
-%    \end{tabular}
+    * version\\
+    * hashPrevBlock\\
+    * hashMerkelRoot\\
+    * time\\
+    * bits (difficulty)\\
+    * nonce\\
 
 \end{frame}
 
@@ -104,17 +87,33 @@
 
     {\Huge Proof of Work}\\
 
+    \vspace{5mm}
+
+    "A proof of work is a piece of data which was difficult (costly, time-consuming) to produce so as to satisfy certain requirements"\\
+
 \end{frame}
 
 \begin{frame}
 
-    {\Huge Aux POW}\\
+    {\Huge Auxiliary POW}\\
+
+    \vspace{5mm}
+
+    "This is the way that merged mining can exist; it is the relationship between two blockchains for one to trust the other's work as their own and accept AuxPOW blocks."\\
 
 \end{frame}
 
 \begin{frame}
 
     {\Huge Bitcoin Coinbase}\\
+
+    \vspace{5mm}
+
+    * block height\\
+    * flags\\
+    * merged mining prefix\\
+    * namecoin prevhash\\
+    * ...\\
 
 \end{frame}
 
@@ -131,7 +130,11 @@
 
     {\Huge Namecoin Block}\\
 
-    img: block + auxpow + transactions
+    \vspace{5mm}
+
+    * header\\
+    * auxpow (btc coinbase tx, btc branch, btc header)\\
+    * transactions\\
 
 %    \vspace{5mm}
 
